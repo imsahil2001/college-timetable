@@ -93,8 +93,8 @@ hr.style-two {
   }
   tr td {
     font-size: 0.9rem;
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
+    padding-top: 0.8rem !important;
+    padding-bottom: 0.8rem !important;
   }
   table {
     width: 95.3%;
