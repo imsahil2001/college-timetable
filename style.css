@@ -85,11 +85,17 @@ hr.style-two {
 
 @media (max-width: 400px) {
   .title {
-    font-size: 1.9rem;
+    font-size: 1.75rem;
     margin-top: 2.25rem;
   }
   #date_heading {
     font-size: 1.5rem;
+  }
+  tr td {
+    font-size: 0.9rem;
+  }
+  .table {
+    width: 95.3%;
   }
 }
 /*# sourceMappingURL=style.css.map */
