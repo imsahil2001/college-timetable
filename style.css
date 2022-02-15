@@ -97,7 +97,7 @@ hr.style-two {
     padding-bottom: 0.8rem !important;
   }
   table {
-    width: 95.3%;
+    width: 95.3% !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
