@@ -73,4 +73,14 @@ a:hover {
   font-weight: 400;
   padding-bottom: 1rem;
 }
+
+@media (max-width: 400px) {
+  .title {
+    font-size: 1.9rem;
+    margin-top: 2.25rem;
+  }
+  #date_heading {
+    font-size: 1.5rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
