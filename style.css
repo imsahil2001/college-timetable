@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #1b1b1b;
+  color: whitesmoke;
+}
+
+.table {
+  margin: 1rem auto;
+  font-family: "Source Sans Pro", sans-serif;
+  width: 70%;
+  border-color: #616161;
+}
+
+tr th {
+  font-size: 1.65rem;
+  font-weight: 400;
+  padding: 0.5rem;
+}
+
+tr td {
+  font-size: 1.3rem;
+  font-weight: 300;
+  padding: 0.5rem;
+}
+
+a {
+  color: #8ab4f8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.title {
+  text-align: center;
+  color: green;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  color: #8ab4f8;
+}
+
+.date_display {
+  /* text-align: right; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  /* margin-right: 8rem; */
+  margin-top: 1.5rem;
+}
+
+#date_heading {
+  font-family: "Jost", sans-serif;
+  padding-right: 5rem;
+  padding-left: 2.5rem;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  padding-top: 1rem;
+  background: #303030;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
