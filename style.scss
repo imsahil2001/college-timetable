@@ -60,16 +60,36 @@ a {
   margin-top: 1.5rem;
 }
 
-#date_heading {
-  font-family: "Jost", sans-serif;
-  padding-right: 5rem;
-  padding-left: 2.5rem;
+.container {
+  // border: 2px solid red;
+  background: rgb(48, 48, 48);
   border-top-left-radius: 100px;
   border-bottom-left-radius: 100px;
+  padding-right: 1.2rem;
+}
+
+#date_heading {
+  font-family: "Jost", sans-serif;
+  padding-right: 0.2rem;
+  padding-left: 2.5rem;
   padding-top: 1rem;
-  background: rgb(48, 48, 48);
   font-weight: 400;
   padding-bottom: 1rem;
+  display: inline-block;
+}
+
+#date_time {
+  font-family: "Jost", sans-serif;
+  font-size: 1.5rem;
+  display: inline-block;
+  padding-right: 0.5rem;
+  color: rgb(160, 160, 160);
+}
+
+#day {
+  font-family: "Jost", sans-serif;
+  display: inline-block;
+  font-size: 1.9rem;
 }
 
 hr.style-two {
@@ -94,6 +114,14 @@ hr.style-two {
     font-size: 1.5rem;
   }
 
+  #date_time {
+    font-size: 1.2rem;
+  }
+
+  #day {
+    font-size: 1.45rem;
+  }
+
   tr {
     td {
       font-size: 0.9rem;
@@ -104,5 +132,9 @@ hr.style-two {
 
   table {
     width: 95.3% !important;
+  }
+
+  a {
+    font-weight: 400;
   }
 }
